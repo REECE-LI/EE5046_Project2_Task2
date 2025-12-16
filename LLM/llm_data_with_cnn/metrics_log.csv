@@ -1,0 +1,82 @@
+data_file,adapter_dir,base_model,total,parsed,parse_ratio,acc,precision,recall,f1,auc,tp,fp,tn,fn,label_pos_rate,pred_pos_rate
+project2/LLM/homework2upload/llm_data_with_cnn/test_data.jsonl,project2/LLM/homework2upload/llm_data_with_cnn/ecg_llm_lora_finetuned_Qwen__Qwen2.5-7B,Qwen/Qwen2.5-7B,3294,463,0.14055859137826351,0.34773218142548595,0.08227848101265822,0.6842105263157895,0.14689265536723162,0.5009287925696595,26,290,135,12,0.08207343412526998,0.6825053995680346
+
+
+
+[Info] 加载 LoRA 适配器: project2/LLM/homework2upload/llm_data_with_cnn/ecg_llm_lora_finetuned_Qwen__Qwen2.5-7B
+[Progress] 50/3294 | 可解析 5 (10.00%) | acc 0.4000 | precision 0.0000 | recall 0.0000 | f1 0.0000 | auc 0.0000 | pos(y/p) 0.000/0.600 | TP/FP/TN/FN 0/3/2/0
+[Progress] 100/3294 | 可解析 11 (11.00%) | acc 0.5455 | precision 0.0000 | recall 0.0000 | f1 0.0000 | auc 0.0000 | pos(y/p) 0.000/0.455 | TP/FP/TN/FN 0/5/6/0
+[Progress] 150/3294 | 可解析 18 (12.00%) | acc 0.3333 | precision 0.0000 | recall 0.0000 | f1 0.0000 | auc 0.1765 | pos(y/p) 0.056/0.611 | TP/FP/TN/FN 0/11/6/1
+[Progress] 200/3294 | 可解析 26 (13.00%) | acc 0.3846 | precision 0.0625 | recall 0.5000 | f1 0.1111 | auc 0.4375 | pos(y/p) 0.077/0.615 | TP/FP/TN/FN 1/15/9/1
+[Progress] 250/3294 | 可解析 37 (14.80%) | acc 0.3514 | precision 0.0435 | recall 0.3333 | f1 0.0769 | auc 0.3431 | pos(y/p) 0.081/0.622 | TP/FP/TN/FN 1/22/12/2
+[Progress] 300/3294 | 可解析 50 (16.67%) | acc 0.4400 | precision 0.1613 | recall 0.7143 | f1 0.2632 | auc 0.5548 | pos(y/p) 0.140/0.620 | TP/FP/TN/FN 5/26/17/2
+[Progress] 350/3294 | 可解析 54 (15.43%) | acc 0.4444 | precision 0.1515 | recall 0.7143 | f1 0.2500 | auc 0.5593 | pos(y/p) 0.130/0.611 | TP/FP/TN/FN 5/28/19/2
+[Progress] 400/3294 | 可解析 58 (14.50%) | acc 0.4483 | precision 0.1429 | recall 0.7143 | f1 0.2381 | auc 0.5630 | pos(y/p) 0.121/0.603 | TP/FP/TN/FN 5/30/21/2
+[Progress] 450/3294 | 可解析 66 (14.67%) | acc 0.4242 | precision 0.1463 | recall 0.6667 | f1 0.2400 | auc 0.5263 | pos(y/p) 0.136/0.621 | TP/FP/TN/FN 6/35/22/3
+[Progress] 500/3294 | 可解析 74 (14.80%) | acc 0.4189 | precision 0.1489 | recall 0.7000 | f1 0.2456 | auc 0.5375 | pos(y/p) 0.135/0.635 | TP/FP/TN/FN 7/40/24/3
+[Progress] 550/3294 | 可解析 81 (14.73%) | acc 0.4074 | precision 0.1538 | recall 0.6667 | f1 0.2500 | auc 0.5145 | pos(y/p) 0.148/0.642 | TP/FP/TN/FN 8/44/25/4
+[Progress] 600/3294 | 可解析 89 (14.83%) | acc 0.4270 | precision 0.1455 | recall 0.6667 | f1 0.2388 | auc 0.5281 | pos(y/p) 0.135/0.618 | TP/FP/TN/FN 8/47/30/4
+[Progress] 650/3294 | 可解析 95 (14.62%) | acc 0.4211 | precision 0.1379 | recall 0.6154 | f1 0.2254 | auc 0.5028 | pos(y/p) 0.137/0.611 | TP/FP/TN/FN 8/50/32/5
+[Progress] 700/3294 | 可解析 100 (14.29%) | acc 0.4300 | precision 0.1475 | recall 0.6429 | f1 0.2400 | auc 0.5191 | pos(y/p) 0.140/0.610 | TP/FP/TN/FN 9/52/34/5
+[Progress] 750/3294 | 可解析 108 (14.40%) | acc 0.4352 | precision 0.1765 | recall 0.7059 | f1 0.2824 | auc 0.5452 | pos(y/p) 0.157/0.630 | TP/FP/TN/FN 12/56/35/5
+[Progress] 800/3294 | 可解析 113 (14.12%) | acc 0.4602 | precision 0.1765 | recall 0.7059 | f1 0.2824 | auc 0.5613 | pos(y/p) 0.150/0.602 | TP/FP/TN/FN 12/56/40/5
+[Progress] 850/3294 | 可解析 123 (14.47%) | acc 0.4390 | precision 0.1579 | recall 0.7059 | f1 0.2581 | auc 0.5511 | pos(y/p) 0.138/0.618 | TP/FP/TN/FN 12/64/42/5
+[Progress] 900/3294 | 可解析 128 (14.22%) | acc 0.4453 | precision 0.1538 | recall 0.7059 | f1 0.2526 | auc 0.5556 | pos(y/p) 0.133/0.609 | TP/FP/TN/FN 12/66/45/5
+[Progress] 950/3294 | 可解析 134 (14.11%) | acc 0.4328 | precision 0.1446 | recall 0.7059 | f1 0.2400 | auc 0.5495 | pos(y/p) 0.127/0.619 | TP/FP/TN/FN 12/71/46/5
+[Progress] 1000/3294 | 可解析 137 (13.70%) | acc 0.4234 | precision 0.1412 | recall 0.6667 | f1 0.2330 | auc 0.5266 | pos(y/p) 0.131/0.620 | TP/FP/TN/FN 12/73/46/6
+[Progress] 1050/3294 | 可解析 146 (13.90%) | acc 0.4247 | precision 0.1429 | recall 0.6842 | f1 0.2364 | auc 0.5350 | pos(y/p) 0.130/0.623 | TP/FP/TN/FN 13/78/49/6
+[Progress] 1100/3294 | 可解析 159 (14.45%) | acc 0.3899 | precision 0.1262 | recall 0.6500 | f1 0.2114 | auc 0.5013 | pos(y/p) 0.126/0.648 | TP/FP/TN/FN 13/90/49/7
+[Progress] 1150/3294 | 可解析 163 (14.17%) | acc 0.3865 | precision 0.1226 | recall 0.6500 | f1 0.2063 | auc 0.4998 | pos(y/p) 0.123/0.650 | TP/FP/TN/FN 13/93/50/7
+[Progress] 1200/3294 | 可解析 169 (14.08%) | acc 0.3905 | precision 0.1204 | recall 0.6190 | f1 0.2016 | auc 0.4886 | pos(y/p) 0.124/0.639 | TP/FP/TN/FN 13/95/53/8
+[Progress] 1250/3294 | 可解析 174 (13.92%) | acc 0.3908 | precision 0.1171 | recall 0.6190 | f1 0.1970 | auc 0.4893 | pos(y/p) 0.121/0.638 | TP/FP/TN/FN 13/98/55/8
+[Progress] 1300/3294 | 可解析 185 (14.23%) | acc 0.3892 | precision 0.1102 | recall 0.6190 | f1 0.1871 | auc 0.4894 | pos(y/p) 0.114/0.638 | TP/FP/TN/FN 13/105/59/8
+[Progress] 1350/3294 | 可解析 193 (14.30%) | acc 0.3938 | precision 0.1066 | recall 0.6190 | f1 0.1818 | auc 0.4927 | pos(y/p) 0.109/0.632 | TP/FP/TN/FN 13/109/63/8
+[Progress] 1400/3294 | 可解析 201 (14.36%) | acc 0.3781 | precision 0.1000 | recall 0.6190 | f1 0.1722 | auc 0.4845 | pos(y/p) 0.104/0.647 | TP/FP/TN/FN 13/117/63/8
+[Progress] 1450/3294 | 可解析 208 (14.34%) | acc 0.3702 | precision 0.1029 | recall 0.6087 | f1 0.1761 | auc 0.4746 | pos(y/p) 0.111/0.654 | TP/FP/TN/FN 14/122/63/9
+[Progress] 1500/3294 | 可解析 216 (14.40%) | acc 0.3750 | precision 0.1064 | recall 0.6250 | f1 0.1818 | auc 0.4844 | pos(y/p) 0.111/0.653 | TP/FP/TN/FN 15/126/66/9
+[Progress] 1550/3294 | 可解析 225 (14.52%) | acc 0.3867 | precision 0.1103 | recall 0.6400 | f1 0.1882 | auc 0.4975 | pos(y/p) 0.111/0.644 | TP/FP/TN/FN 16/129/71/9
+[Progress] 1600/3294 | 可解析 234 (14.62%) | acc 0.3803 | precision 0.1053 | recall 0.6400 | f1 0.1808 | auc 0.4946 | pos(y/p) 0.107/0.650 | TP/FP/TN/FN 16/136/73/9
+[Progress] 1650/3294 | 可解析 241 (14.61%) | acc 0.3776 | precision 0.1019 | recall 0.6400 | f1 0.1758 | auc 0.4936 | pos(y/p) 0.104/0.651 | TP/FP/TN/FN 16/141/75/9
+[Progress] 1700/3294 | 可解析 248 (14.59%) | acc 0.3831 | precision 0.1000 | recall 0.6400 | f1 0.1730 | auc 0.4971 | pos(y/p) 0.101/0.645 | TP/FP/TN/FN 16/144/79/9
+[Progress] 1750/3294 | 可解析 259 (14.80%) | acc 0.3822 | precision 0.0958 | recall 0.6400 | f1 0.1667 | auc 0.4974 | pos(y/p) 0.097/0.645 | TP/FP/TN/FN 16/151/83/9
+[Progress] 1800/3294 | 可解析 261 (14.50%) | acc 0.3870 | precision 0.1012 | recall 0.6538 | f1 0.1753 | auc 0.5056 | pos(y/p) 0.100/0.644 | TP/FP/TN/FN 17/151/84/9
+[Progress] 1850/3294 | 可解析 266 (14.38%) | acc 0.3797 | precision 0.0983 | recall 0.6538 | f1 0.1709 | auc 0.5019 | pos(y/p) 0.098/0.650 | TP/FP/TN/FN 17/156/84/9
+[Progress] 1900/3294 | 可解析 272 (14.32%) | acc 0.3787 | precision 0.0960 | recall 0.6538 | f1 0.1675 | auc 0.5017 | pos(y/p) 0.096/0.651 | TP/FP/TN/FN 17/160/86/9
+[Progress] 1950/3294 | 可解析 276 (14.15%) | acc 0.3768 | precision 0.0994 | recall 0.6667 | f1 0.1731 | auc 0.5060 | pos(y/p) 0.098/0.656 | TP/FP/TN/FN 18/163/86/9
+[Progress] 2000/3294 | 可解析 286 (14.30%) | acc 0.3811 | precision 0.1064 | recall 0.6897 | f1 0.1843 | auc 0.5180 | pos(y/p) 0.101/0.657 | TP/FP/TN/FN 20/168/89/9
+[Progress] 2050/3294 | 可解析 291 (14.20%) | acc 0.3780 | precision 0.1042 | recall 0.6897 | f1 0.1810 | auc 0.5166 | pos(y/p) 0.100/0.660 | TP/FP/TN/FN 20/172/90/9
+[Progress] 2100/3294 | 可解析 296 (14.10%) | acc 0.3750 | precision 0.1020 | recall 0.6897 | f1 0.1778 | auc 0.5152 | pos(y/p) 0.098/0.662 | TP/FP/TN/FN 20/176/91/9
+[Progress] 2150/3294 | 可解析 307 (14.28%) | acc 0.3713 | precision 0.0980 | recall 0.6897 | f1 0.1717 | auc 0.5139 | pos(y/p) 0.094/0.664 | TP/FP/TN/FN 20/184/94/9
+[Progress] 2200/3294 | 可解析 314 (14.27%) | acc 0.3694 | precision 0.0962 | recall 0.6667 | f1 0.1681 | auc 0.5023 | pos(y/p) 0.096/0.662 | TP/FP/TN/FN 20/188/96/10
+[Progress] 2250/3294 | 可解析 317 (14.09%) | acc 0.3659 | precision 0.0948 | recall 0.6667 | f1 0.1660 | auc 0.5006 | pos(y/p) 0.095/0.666 | TP/FP/TN/FN 20/191/96/10
+[Progress] 2300/3294 | 可解析 322 (14.00%) | acc 0.3696 | precision 0.0943 | recall 0.6452 | f1 0.1646 | auc 0.4927 | pos(y/p) 0.096/0.658 | TP/FP/TN/FN 20/192/99/11
+[Progress] 2350/3294 | 可解析 333 (14.17%) | acc 0.3634 | precision 0.0905 | recall 0.6452 | f1 0.1587 | auc 0.4898 | pos(y/p) 0.093/0.664 | TP/FP/TN/FN 20/201/101/11
+[Progress] 2400/3294 | 可解析 342 (14.25%) | acc 0.3596 | precision 0.0877 | recall 0.6452 | f1 0.1544 | auc 0.4882 | pos(y/p) 0.091/0.667 | TP/FP/TN/FN 20/208/103/11
+[Progress] 2450/3294 | 可解析 348 (14.20%) | acc 0.3621 | precision 0.0866 | recall 0.6452 | f1 0.1527 | auc 0.4898 | pos(y/p) 0.089/0.664 | TP/FP/TN/FN 20/211/106/11
+[Progress] 2500/3294 | 可解析 353 (14.12%) | acc 0.3569 | precision 0.0847 | recall 0.6452 | f1 0.1498 | auc 0.4872 | pos(y/p) 0.088/0.669 | TP/FP/TN/FN 20/216/106/11
+[Progress] 2550/3294 | 可解析 357 (14.00%) | acc 0.3557 | precision 0.0837 | recall 0.6452 | f1 0.1481 | auc 0.4867 | pos(y/p) 0.087/0.669 | TP/FP/TN/FN 20/219/107/11
+[Progress] 2600/3294 | 可解析 362 (13.92%) | acc 0.3508 | precision 0.0820 | recall 0.6452 | f1 0.1455 | auc 0.4842 | pos(y/p) 0.086/0.674 | TP/FP/TN/FN 20/224/107/11
+[Progress] 2650/3294 | 可解析 369 (13.92%) | acc 0.3469 | precision 0.0800 | recall 0.6452 | f1 0.1423 | auc 0.4823 | pos(y/p) 0.084/0.678 | TP/FP/TN/FN 20/230/108/11
+[Progress] 2700/3294 | 可解析 379 (14.04%) | acc 0.3536 | precision 0.0824 | recall 0.6562 | f1 0.1463 | auc 0.4909 | pos(y/p) 0.084/0.673 | TP/FP/TN/FN 21/234/113/11
+[Progress] 2750/3294 | 可解析 382 (13.89%) | acc 0.3534 | precision 0.0853 | recall 0.6667 | f1 0.1512 | auc 0.4952 | pos(y/p) 0.086/0.675 | TP/FP/TN/FN 22/236/113/11
+[Progress] 2800/3294 | 可解析 385 (13.75%) | acc 0.3532 | precision 0.0846 | recall 0.6667 | f1 0.1502 | auc 0.4953 | pos(y/p) 0.086/0.675 | TP/FP/TN/FN 22/238/114/11
+[Progress] 2850/3294 | 可解析 396 (13.89%) | acc 0.3485 | precision 0.0852 | recall 0.6765 | f1 0.1513 | auc 0.4971 | pos(y/p) 0.086/0.682 | TP/FP/TN/FN 23/247/115/11
+[Progress] 2900/3294 | 可解析 402 (13.86%) | acc 0.3483 | precision 0.0839 | recall 0.6765 | f1 0.1494 | auc 0.4972 | pos(y/p) 0.085/0.682 | TP/FP/TN/FN 23/251/117/11
+[Progress] 2950/3294 | 可解析 409 (13.86%) | acc 0.3423 | precision 0.0819 | recall 0.6765 | f1 0.1460 | auc 0.4942 | pos(y/p) 0.083/0.687 | TP/FP/TN/FN 23/258/117/11
+[Progress] 3000/3294 | 可解析 416 (13.87%) | acc 0.3462 | precision 0.0874 | recall 0.6944 | f1 0.1553 | auc 0.5038 | pos(y/p) 0.087/0.688 | TP/FP/TN/FN 25/261/119/11
+[Progress] 3050/3294 | 可解析 422 (13.84%) | acc 0.3460 | precision 0.0862 | recall 0.6944 | f1 0.1534 | auc 0.5040 | pos(y/p) 0.085/0.687 | TP/FP/TN/FN 25/265/121/11
+[Progress] 3100/3294 | 可解析 434 (14.00%) | acc 0.3410 | precision 0.0864 | recall 0.7027 | f1 0.1538 | auc 0.5050 | pos(y/p) 0.085/0.694 | TP/FP/TN/FN 26/275/122/11
+[Progress] 3150/3294 | 可解析 448 (14.22%) | acc 0.3438 | precision 0.0844 | recall 0.6842 | f1 0.1503 | auc 0.4982 | pos(y/p) 0.085/0.688 | TP/FP/TN/FN 26/282/128/12
+[Progress] 3200/3294 | 可解析 453 (14.16%) | acc 0.3422 | precision 0.0833 | recall 0.6842 | f1 0.1486 | auc 0.4975 | pos(y/p) 0.084/0.689 | TP/FP/TN/FN 26/286/129/12
+[Progress] 3250/3294 | 可解析 458 (14.09%) | acc 0.3428 | precision 0.0825 | recall 0.6842 | f1 0.1473 | auc 0.4981 | pos(y/p) 0.083/0.688 | TP/FP/TN/FN 26/289/131/12
+==================================================
+[Result] 总样本: 3294
+[Result] 可解析: 463 (占 14.06%)
+[Result] 准确率: 0.3477
+[Result] 精确率: 0.0823
+[Result] 召回率: 0.6842
+[Result] F1: 0.1469
+[Result] AUC: 0.5009
+[Result] 正类比例(y): 0.0821 | 预测正类比例(p): 0.6825
+[Result] TP/FP/TN/FN: 26/290/135/12
+==================================================
